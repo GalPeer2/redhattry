@@ -7,7 +7,7 @@ containers:
 service:
   servicePort: 8080
 
-probes:
+Probes:
   readiness:
     path: '/health/readiness'
     initialDelaySeconds: 1 # the time is waiting befor testing the application path
